@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PetarVlasic</string>
+    <string name="kreiraj_tablice">Kreiraj tablice</string>
+    <string name="ispi_i_sadr_aj_baze">Ispiši sadržaj baze</string>
+    <string name="ispi_i_autora_od_lika_mickey">Ispiši autora od lika Mickey</string>
+</resources>

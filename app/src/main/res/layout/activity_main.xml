@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pvlasic.petarvlasic.MainActivity">
+
+    <EditText
+        android:id="@+id/mickey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/likovi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/filmovi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="@string/kreiraj_tablice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="createTables"
+        />
+    <Button
+        android:text="@string/ispi_i_sadr_aj_baze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="printDB"/>
+    <Button
+        android:text="@string/ispi_i_autora_od_lika_mickey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="printMickey"/>
+    <Button
+        android:text="Brisanje lika i filma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="_delete"/>
+    <Button
+        android:text="Izbriši cijelu bazu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="deleteDB" />
+
+</LinearLayout>
